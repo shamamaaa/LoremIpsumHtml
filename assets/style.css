@@ -1,0 +1,39 @@
+@font-face {
+    font-family: customfont;
+    src: url(assets/style.css);
+}
+
+body{
+    margin: 0;
+    padding: 15vh 35vh;
+}
+
+#languages a{
+    font-size: small;
+    color: black;
+    margin: 0 5px;
+}
+
+h1 {
+    padding: 15px;
+    font-family: customfont;
+}
+h4 {
+    font-family: customfont;
+    text-align: left;
+}
+p{
+    font-size: small;
+    font-family: 'Open Sans',Arial,sans-serif;
+    text-align: justify;
+    margin: 0 0 15px 0;
+}
+hr {
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));
+}
+table{
+    width: 100%;
+}
